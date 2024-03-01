@@ -2,7 +2,7 @@
 
 We perform Exploratory Data Analysis to give a brief overview of the data we're working with. 
 
-Your CSV file can be hosted online and read using the code below, hence creating a data frame. 
+Your CSV file can be hosted online and read using the code below, creating a data frame. 
 
 ```{r}
 read.csv(text = getURL("link")) 
@@ -24,7 +24,7 @@ sum(is.na(data_set))
 
 ## Skim
 + skim(data_set) gives a brief overview of the data.
-+ You can use dplyr to group by column, and then use skim to get a rough idea of data distribution.
++ You can use dplyr to group by column, then skim to get a rough idea of data distribution.
 
 #
 

@@ -1,4 +1,8 @@
-# EDA
+# Exploratory Data Analysis & Wrangling Notes. 
+
+## What is Data Wrangling? 
+
++ *Data wrangling* involves transforming raw data into formats ready for use, varying by project needs and goals. This includes merging data sources, filling or removing gaps, deleting irrelevant data, and addressing outliers for analysis.
 
 We perform Exploratory Data Analysis to give a brief overview of the data we're working with. 
 
@@ -23,11 +27,14 @@ sum(is.na(data_set))
 ```
 + #0 = no nulls.
 
-## Skim
+### Skim
 + skim(data_set) gives a brief overview of the data.
 + You can use dplyr to group by column, then skim to get a rough idea of data distribution.
 
-#
++ `filter`(data_set, price == "Ideal", table_2 > 1000)
++ 
+
+
 
 
 

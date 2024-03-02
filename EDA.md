@@ -3,6 +3,7 @@
 We perform Exploratory Data Analysis to give a brief overview of the data we're working with. 
 
 Your CSV file can be hosted online and read using the code below, creating a data frame. 
+= `getURL` enables the analyst to link the file from the web. 
 
 ```{r}
 read.csv(text = getURL("link")) 
